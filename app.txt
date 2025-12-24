@@ -1,0 +1,32 @@
+streamlit>=1.28.0
+   requests>=2.31.0
+   beautifulsoup4>=4.12.0
+```
+   - Commit!
+
+4. **Kész! A repo így néz ki most:**
+```
+   football-intelligence/
+   ├── README.md
+   ├── app.py
+   └── requirements.txt
+```
+
+---
+
+### 4️⃣ **Streamlit Cloud Deploy**
+
+Most jön a varázslat! 🪄
+
+1. **Menj ide:** **https://share.streamlit.io/**
+
+2. **Kattints:** `Sign in` → **"Continue with GitHub"**
+   - Engedd meg a hozzáférést
+
+3. **Most látod a Dashboard-ot**, kattints: `New app`
+
+4. **Töltsd ki a form-ot:**
+```
+   Repository: username/football-intelligence
+   Branch: main
+   Main file path: app.py
